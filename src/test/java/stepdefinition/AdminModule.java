@@ -25,6 +25,8 @@ public class AdminModule {
 	    driver.get("https://opensource-demo.orangehrmlive.com/");
 	    driver.manage().window().maximize();
 	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	    
+	    System.out.println("***************************");
 	}
 
 	@When("user enter correct username {string} and password {string}")
