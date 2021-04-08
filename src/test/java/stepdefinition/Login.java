@@ -19,7 +19,7 @@ public class Login {
 		System.setProperty("webdriver.chrome.driver", "D:\\Chrome88\\chromedriver.exe");
 	    driver = new ChromeDriver();
 	    driver.get("https://opensource-demo.orangehrmlive.com/");
-	    System.out.println("***************");
+	    System.out.println("************");
 	    
 	}
 
